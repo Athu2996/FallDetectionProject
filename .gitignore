@@ -1,0 +1,33 @@
+@"
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Dataset (do NOT push large data)
+dataset/
+data/
+*.zip
+*.tar.gz
+
+# Model files (optional: include or exclude)
+*.h5
+*.keras
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+"@ > .gitignore
